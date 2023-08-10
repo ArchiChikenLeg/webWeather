@@ -1,0 +1,101 @@
+*{
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.container{
+    width: 60%;
+    background-color: #558aae;
+    margin: auto;
+    padding: 15px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.header h2{
+    font-size: 30px;
+}
+hr{
+    height: 3px;
+    width: 90%;
+    background-color: white;
+}
+.today{
+    display: flex;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    align-items: flex-end;
+}
+.condition{
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+}
+.condition i{
+    font-size: 200px;
+    margin: 10px;
+    margin-bottom: 30px;
+    color: #dbd35e;
+}
+.date{
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+.weather{
+    width: 50%;
+
+}
+.temp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    margin: 20px auto;
+}
+.temp p{
+    font-size: 100px;
+    display: block;
+}
+.temp i{
+    font-size: 80px;
+    display: block;
+}
+.humidity{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.humidity p{
+    margin: 10px;
+    font-size: 30px;
+}
+.humidity i{
+    font-size: 40px;
+    color: #3331a6;
+}
+.week{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 20px auto;
+    padding: 15px;
+}
+.day{
+    text-align: center;
+}
+.day i{
+    font-size: 50px;
+}
+.t{
+    font-size: 45px;
+    margin: 10px 0;
+}
